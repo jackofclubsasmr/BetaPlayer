@@ -1,0 +1,32 @@
+#video-container {
+  position: relative;
+  text-align: center;
+}
+
+#video-player {
+  width: 640px;
+  height: 360px;
+  margin: 0 auto;
+  border-radius: 10px; /* Optional: Rounded corners for the video player */
+}
+
+#video-slider {
+  width: 80%;
+  margin: 20px auto;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+#flashing-text {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
