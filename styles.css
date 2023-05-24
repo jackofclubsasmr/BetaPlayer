@@ -1,18 +1,32 @@
+body {
+  background-color: #111;
+  color: #FFF;
+}
+
 #video-container {
   position: relative;
   text-align: center;
+  padding: 20px;
 }
 
 #video-player {
   width: 640px;
   height: 360px;
   margin: 0 auto;
-  border-radius: 10px; /* Optional: Rounded corners for the video player */
+}
+
+#slider-container {
+  margin-top: 20px;
+}
+
+h3 {
+  color: #BBB;
+  margin-bottom: 5px;
 }
 
 #video-slider {
   width: 80%;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 
 #overlay {
