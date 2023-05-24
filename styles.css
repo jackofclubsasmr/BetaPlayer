@@ -1,6 +1,6 @@
 body {
-  background-color: #111;
-  color: #FFF;
+  background-color: black;
+  color: black;
 }
 
 #video-container {
@@ -28,8 +28,8 @@ body {
 }
 
 #video-slider {
-  width: 80%;
-  max-width: 400px;
+  width: 40%;
+  max-width: 300px;
 }
 
 #overlay {
