@@ -17,16 +17,19 @@ body {
 
 #slider-container {
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-h3 {
+#slider-label {
   color: #BBB;
   margin-bottom: 5px;
 }
 
 #video-slider {
   width: 80%;
-  margin: 0 auto;
+  max-width: 400px;
 }
 
 #overlay {
