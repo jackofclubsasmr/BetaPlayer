@@ -29,6 +29,11 @@ h3 {
   max-width: 300px;
 }
 
+#slider-label {
+  color: #CCC;
+  margin-bottom: 5px;
+}
+
 #overlay {
   position: absolute;
   top: 0;
